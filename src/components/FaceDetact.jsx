@@ -66,6 +66,7 @@ const FaceDetact = () => {
     }
   };
 
+  //   capture image function
   const captureAndSendImage = async () => {
     if (webcamRef.current) {
       const videoEl = webcamRef.current.video;
